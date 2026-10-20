@@ -12,4 +12,4 @@ All notable changes to this project are documented here. This project follows [S
 - `waitFor()` with `filter`, `timeout` and `signal`, and `events()` async iteration with buffering.
 - `listenerCount()`, `eventNames()`, `clear()`, `createEmitter()`, and the `EventArgs`, `Listener` and `AnyListener` types.
 
-[0.1.0]: https://github.com/acus9345/typemit/releases/tag/v0.1.0
+[0.1.0]: https://github.com/acus9345/strictemit/releases/tag/v0.1.0

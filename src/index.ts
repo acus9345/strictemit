@@ -2,7 +2,7 @@
  * Tiny, fully typed event emitter.
  *
  * @example
- * import { Emitter } from "typemit";
+ * import { Emitter } from "strictemit";
  *
  * const chat = new Emitter<{ message: [text: string, from: string]; close: [] }>();
  * chat.on("message", (text, from) => console.log(`${from}: ${text}`));

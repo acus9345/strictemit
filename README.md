@@ -1,10 +1,10 @@
-# typemit
+# strictemit
 
 A tiny, fully typed event emitter. About 1.1 kB minified and gzipped, zero dependencies, works in Node, Deno, Bun and browsers.
 
-[![npm](https://img.shields.io/npm/v/typemit)](https://www.npmjs.com/package/typemit)
-[![CI](https://github.com/acus9345/typemit/actions/workflows/ci.yml/badge.svg)](https://github.com/acus9345/typemit/actions/workflows/ci.yml)
-[![license](https://img.shields.io/npm/l/typemit)](LICENSE)
+[![npm](https://img.shields.io/npm/v/strictemit)](https://www.npmjs.com/package/strictemit)
+[![CI](https://github.com/acus9345/strictemit/actions/workflows/ci.yml/badge.svg)](https://github.com/acus9345/strictemit/actions/workflows/ci.yml)
+[![license](https://img.shields.io/npm/l/strictemit)](LICENSE)
 
 - **Typed end to end:** event names, argument types and argument counts are checked, and listeners get named, typed parameters.
 - **Unsubscribe however you like:** the function `on()` returns, `off()`, `once`, or an `AbortSignal`.
@@ -14,13 +14,13 @@ A tiny, fully typed event emitter. About 1.1 kB minified and gzipped, zero depen
 ## Install
 
 ```bash
-npm install typemit
+npm install strictemit
 ```
 
 ## Quick start
 
 ```ts
-import { Emitter } from "typemit";
+import { Emitter } from "strictemit";
 
 type ChatEvents = {
   message: [text: string, from: string];
@@ -119,7 +119,7 @@ Count listeners (of one event, or all), list events with listeners, and remove l
 
 ## Compared to others
 
-| | typemit | mitt | Node `EventEmitter` | eventemitter3 |
+| | strictemit | mitt | Node `EventEmitter` | eventemitter3 |
 | --- | --- | --- | --- | --- |
 | Typed events and arguments | ✓ | one payload per event | with recent `@types/node` | ✓ |
 | `once` | ✓ | | ✓ | ✓ |

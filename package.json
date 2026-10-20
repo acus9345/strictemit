@@ -1,5 +1,5 @@
 {
-  "name": "typemit",
+  "name": "strictemit",
   "version": "0.1.0",
   "description": "Tiny, fully typed event emitter. Typed events and arguments, once, wildcard listeners, AbortSignal, waitFor() promises and async iteration. Zero dependencies, works everywhere.",
   "keywords": [
@@ -14,13 +14,13 @@
     "abortsignal",
     "async-iterator"
   ],
-  "homepage": "https://github.com/acus9345/typemit#readme",
+  "homepage": "https://github.com/acus9345/strictemit#readme",
   "bugs": {
-    "url": "https://github.com/acus9345/typemit/issues"
+    "url": "https://github.com/acus9345/strictemit/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acus9345/typemit.git"
+    "url": "git+https://github.com/acus9345/strictemit.git"
   },
   "license": "MIT",
   "author": "acus9345 <acus9345@gmail.com>",
